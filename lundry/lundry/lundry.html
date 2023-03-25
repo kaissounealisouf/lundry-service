@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lundry service</title>
+    <title>Luandry services</title>
     <link rel="stylesheet" href="lundry.css">
 <body>
-  
+
     <!--Link-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -41,21 +41,16 @@
         </div>
         <div class="header col-xs-10 col-sm-10 col-md-6 col-lg-6 col-xl-6" id="title">
           <img src="images.png" class="logo">
-          <a class="pageTitle hand" href="#">PJb LUNDRY SERVICE</a>
+          <a class="pageTitle hand" href="#">PJG LUANDRY SERVICES</a>
         </div>
         <div class="mobileMenu col-sm-1 col-xs-1">
           <i class='fas fa-bars hand'  onclick="openNav()"></i>
         </div>
         <div class="topRightNav col-sm-3 col-md-3 col-lg-3">
           <ul class="profile NO_PADDING">
-            <li>
-              <i class='far fa-user'><span class="user">shopkeeper</span></i>
-            </li>
            
-            <li class="language NO_MARGIN NO_PADDING">
-              <img class="languageIcon" src="https://icon-library.com/images/language-icon-vector/language-icon-vector-23.jpg">
-              EN
-            </li>
+           
+        
           </ul>
         </div>
       </div>
@@ -78,85 +73,6 @@
       <div class="menuBox">
         <a class="other hand" onclick="openMembershipNav()">PROFILE</a>
       </div>
-    <!--HOTELS AND RESORTS-->
-      <div class="menuBox">
-        <div class="optionList content">
-          <div class="sideNavOption">
-              <br>
-              HOTELS & RESORTS 
-            </a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-              <br>
-            </a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-             
-            </a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-              <br>
-            </a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-              <br>
-              FOUR SEASONS RESORT & SPA 
-            </a>
-          </div>
-          <div class="clear_both"></div>
-        </div>
-      </div>
-          
-    
-
-      <!--DINING-->
-      <div class="menuBox">
-        <a class="collapsible hand"><span onclick="open_url('https://www.shinhwaworld.com/dine_list.php?url_lang=en_US')">DINING</span></a>
-        <div class="optionList content">
-          <div class="sideNavOption">
-            <a class="hand" onclick="open_url('https://www.shinhwaworld.com/dine_sub.php?subid=126&url_lang=en_US')">CELEBRITY CHEFS</a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-            <a class="hand" onclick="open_url('https://www.shinhwaworld.com/dine_sub.php?subid=129&url_lang=en_US')">STARRED RESTAURANTS</a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-            <a class="hand" onclick="open_url('https://www.shinhwaworld.com/dine_sub.php?subid=130&url_lang=en_US')">ASIAN FOOD STREET</a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-            <a class="hand" onclick="open_url('https://www.shinhwaworld.com/dine_sub.php?subid=322&url_lang=en_US')">FOOD AVENUE</a>
-          </div>
-          <div class="clear_both"></div>
-          <div class="sideNavOption">
-            <a class="hand" onclick="open_url('https://www.shinhwaworld.com/alldining.php?url_lang=en_US')">ALL DINING</a>
-          </div>
-          <div class="clear_both"></div>
-        </div>
-      </div>
-      
-    
-
-      <!--OFFERS-->
-      <div class="menuBox">
-        <a class="other hand" onclick="open_url('https://www.shinhwaworld.com/promotions_accommodations.php?url_lang=en_US')">OFFERS</a>
-      </div>
-      
-      <!--MEETING & EVENTS-->
-      <div class="menuBox">
-        <a class="other hand" onclick="open_url('https://www.shinhwaworld.com/events_accommodations.php?url_lang=en_US')">MEETING & EVENTS</a>
-      </div>
-      
-      <!--MEMBERSHIP-->
-      <div class="menuBox">
-        <a class="other hand" onclick="open_url('https://www.shinhwaworld.com/lmsshinhwarewards.php?url_lang=en_US')">MEMBERSHIP</a>
-      </div>  
-      
     
       <!--FAQ-->
       <div class="menuBox">
@@ -199,24 +115,13 @@
     <!--Mobile Middle Nav Bar-->
     <div class="middleNav">
       <div class="tab leftNav" id="leftNav" onclick="changeColor(this.id)">
-        <div class="leftHeader hand" >HOTELS & RESORTS</div>
+        <div class="leftHeader hand" >HOTEL & RESORTS</div>
       </div>
       <div class="tab rightNav" id="rightNav" onclick="changeColor(this.id)">
         <div class="rightHeader hand">ATTRACTIONS</div>
       </div>
     </div>
     
-    <div class="container-fluid NO_PADDING m-container" id="m-container">
-      <div class="m-conditions">
-        <div class="m-dropdown rowBorder rowSpacing" id="dropdown">
-          <select class="mySelect hand" id="mobile-multiple-checkboxes" multiple="multiple" onchange="changeHotel($(this).val())">
-            <option id="1" value="MARRIOTT">MARRIOTT</option>
-            <option id="2" value="LANDING">LANDING</option>
-            <option id="3" value="SOMERSET">SOMERSET</option>
-            <option id="4" value="SHINHWA">SHINHWA</option>
-          </select>
-        </div>
-          
         <div class="m-datePickBox rowSpacing">
           <div class="m-datePicker rowBorder">
             <input type="text" class="dateRange hand" id="m-dateRange" readonly="readonly"></input>
@@ -262,13 +167,7 @@
           </form>
         </div>
       
-        <div class="bottomBtn">
-          <div class="cancel hand" onclick="closeSearch()">
-            CANCEL
-          </div>
-          <div class="apply hand">
-            APPLY
-          </div>
+        
         </div>
       </div>
     </div>
@@ -281,10 +180,12 @@
           TAP TO REFINE SEARCH
         </div>
         <div class="breadcrumb flat">
-          <a href="#" class="active" disabled="true"><p class="NO_MARGIN">SELECT ROOM</p></a>
-          <a href="#" class="active" disabled="true"><p class="NO_MARGIN">SELECT OPTION</p></a>
-          <a href="#" disabled="true"><p class="NO_MARGIN">PAYMENT</p></a>
-          <a href="#" disabled="true"><p class="NO_MARGIN">CONFIRMATION</p></a>
+          <a href="#" class="active" disabled="true"><p class="NO_MARGIN">MAKE A CHOICE</p></a>
+          <a href="#" class="active" disabled="true"><p class="NO_MARGIN">COLLECT CLOTHES</p></a>
+          <a href="#" class="active" disabled="true"><p class="NO_MARGIN">CANTACT US</p></a>
+          <a href="#"class="active" disabled="true"><p class="NO_MARGIN">CONFIRMATION</p></a>
+          <a href="#" class="active" disabled="true"><p class="NO_MARGIN">POSITIVE SPRING BACK</p></a>
+
         </div>
       </div>
   </div>
@@ -294,19 +195,19 @@
     <div class="m-selected-hotel card">
       <div class="row NO_MARGIN">
         <div class="m-hotel-img col-xs-12 col-sm-5 NO_PADDING">
-          <img class="m-leftImg" src="https://images.trvl-media.com/hotels/22000000/21450000/21441100/21441036/3d542a6f_z.jpg" alt="Marriott Resort"></img>        
-          <img class="m-rightImg" src="http://cdn.cnn.com/cnnnext/dam/assets/140127103345-peninsula-shanghai-deluxe-mock-up.jpg" alt="Marriott Resort Room"></img>
+          <img class="m-leftImg" src="AnyConv.com__download (1).jpg" alt="Marriott Resort"></img>        
+          <img class="m-rightImg" src="AnyConv.com__images.jpg" alt="Marriott Resort Room"></img>
         </div>
         <div class="m-package-intro col-xs-12 col-sm-7">
           <div class="m-card-block">
-            <h4 class="m-card-title"> laundress Princess</h4>
+            <h4 class="m-card-title">Laundress</h4>
           </div>
           <div class="m-price-block NO_BORDER">
             <div class="m-desc m-left-desc">
               <p class="m-card-text total">TOTAL</p>
             </div>
             <div class="m-desc m-right-desc">
-              <p class="m-total-price NO_MARGIN"><span class="m-total-currency">KRW </span>1,496,000.00</p>
+              <p class="m-total-price NO_MARGIN"><span class="m-total-currency">KRW</span>1,496</p>
             </div>
           </div>
           <div class="m-detail">
@@ -317,7 +218,7 @@
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header card-header-title">
-                    <h4 class="modal-title card-element-title">Jeju Shinhwa World Marriott Resort</h4>
+                    <h4 class="modal-title card-element-title">Princess</h4>
                     <button type="button" class="close" data-dismiss="modal">×</button>
                   </div>
                   <div class="modal-body">
@@ -325,24 +226,25 @@
                       <div class="card">
                         <div class="card-block hotel-details">
                           <div class="desc">
-                            <p class="card-text detail">Guest</p>
-                            <p class="card-text">2 adults ; 1 children</p>
+                            <p class="card-text detail">According to Terms & Conditions
+                              </p>
+                            <p class="card-text">Hostels MU Students Only</p>
                           </div>
                           <div class="desc left-desc">
                             <p class="card-text detail">Check-in<span>After 3pm</span></p>
-                            <p class="card-text">18 Nov 2019 (Mon)</p>
+                            <p class="card-text">Open from <time>10:00</time> to <time>21:00</time>(Friday)</p>
                           </div>
                           <div class="desc right-desc">
                             <p class="card-text detail">Check-out<span>Before 12pm</span></p>
-                            <p class="card-text">22 Nov 2019 (Fri)</p>
+                            <p class="card-text">Open from <time>10:00</time> to <time>21:00</time>(Sunday)</p>
                           </div>
                           <div class="desc left-desc">
                             <p class="card-text detail">Package</p>
-                            <p class="card-text">Hotel Room Only</p>
+                            <p class="card-text">Hostel Room Only</p>
                           </div>
                           <div class="desc right-desc">
-                            <p class="card-text detail">Room Type</p>
-                            <p class="card-text">1 Deluxe King</p>
+                            <p class="card-text detail">Gender </p>
+                            <p class="card-text">Any</p>
                           </div>
                         </div>
                         <div class="price-card-block">
@@ -364,7 +266,7 @@
                             <p class="card-text total">TOTAL</p>
                           </div>
                           <div class="desc right-desc">
-                            <p class="total-price NO_MARGIN"><span class="total-currency">KRW </span>1,496,000.00</p>
+                            <p class="total-price NO_MARGIN"><span class="total-currency">KRW </span>1,496</p>
                           </div>
                         </div>
                       </div>
@@ -383,7 +285,7 @@
         <a class="option-title hand"><span>SPECIAL REQUEST</span></a>
         <div class="content">
           <div class="req-input">
-            <textarea class="req-text" rows="4" cols="50" placeholder="What do you like to request? We are happy to serve you."></textarea>
+            <textarea class="req-text" rows="4" cols="50" placeholder="Respected noble ,What do you like to request please? We are happy to serve you"></textarea>
           </div>
         </div>
        </div>
@@ -562,7 +464,6 @@
             </div>
             <div class="child-water-park service-provided">
               <div class="service">
-                <p class="NO_MARGIN">Shinhwa Water Park - Children Single Day<br>
                   <span class="currency">KRW</span>
                   <span class="price">40,000 each person</span>
                   <span class="tnc">*Below 12 years old</span>
@@ -614,7 +515,7 @@
       </div>
       <div class="banner hand">
         <div class="advertisement">
-          <img src="https://previews.123rf.com/images/liudmilachernetska/liudmilachernetska2302/liudmilachernetska230221819/198004195-wicker-basket-with-laundry-detergent-and-washing-machine-in-the-bathroom.jpg">
+          <img src="https://previews.123rf.com/images/liudmilachernetska/liudmilachernetska2302/liudmilachernetska230221819/198004195-wicker-basket-with-laundry-detergent-and-washing-machine-in-the-bathroom.jpg" alt="Clothes">
         </div>
       </div>
       <div class="continue">
@@ -638,6 +539,10 @@
         </div>
       </div>
     </div>
+    <!-- https://previews.123rf.com/images/jemastock/jemastock2001/jemastock200103411/136791298-laundry-wash-and-cleaning-liquid-soap-spray-cleaner-cleaning-shampoo-into-a-cleanliness-basket.jpg -->
+
+              <!-- Animation here first  -->
+
     <div class="selected-hotel">
       <div class="card">
         <div class="hotel-img">
@@ -674,7 +579,7 @@
             <p class="card-text detail">Deluxe King<span class="duration">x 4 nights</span></p>
           </div>
           <div class="desc right-desc">
-            <p class="room-price NO_MARGIN"><span class="room-currency">KRW </span>1,360,000.00</p>
+            <p class="room-price NO_MARGIN"><span class="room-currency">KRW </span>1,360,</p>
           </div>
           <div class="desc left-desc">
             <p class="card-text detail">10% Service Tax</p>
@@ -688,7 +593,7 @@
             <p class="card-text total">TOTAL</p>
           </div>
           <div class="desc right-desc">
-            <p class="total-price NO_MARGIN"><span class="total-currency">KRW </span>1,496,000.00</p>
+            <p class="total-price NO_MARGIN"><span class="total-currency">KRW </span>1,496</p>
           </div>
         </div>
       </div>
@@ -716,17 +621,13 @@
         </div>
 
         <div class="upperMiddleBox">
-          <img src="https://www.shinhwaworld.com/public/images/footer_icon_share.png"> FOLLOW US
+          <img src="https://www.shinhwaworld.com/public/images/footer_icon_share.png"> in terms of query contact us noble please
           <div class="socialMedia">
-            <img id="footer_nav_box_sm_icon0" class="hand" width="40" src="https://www.shinhwaworld.com/public/pic/header/header_sm_1511057171_en_US.png" onclick="open_url('https://www.facebook.com/jejushinhwaworld');">
-            <img id="footer_nav_box_sm_icon1" class="hand" width="40" src="https://www.shinhwaworld.com/public/pic/header/header_sm_1511057179_en_US.png" onclick="open_url('https://www.instagram.com/jejushinhwaworld/');">
+            <img id="footer_nav_box_sm_icon0" class="hand" width="40" src="AnyConv.com__download (1).jpg" onclick="open_url('https://www.facebook.com/jejushinhwaworld');">
             <img id="footer_nav_box_sm_icon2" class="hand" width="40" src="https://www.shinhwaworld.com/public/pic/header/header_sm_1511057201_en_US.png" onclick="open_url('https://pf.kakao.com/_xmWbxgd');">
             <img id="footer_nav_box_sm_icon3" class="hand" width="40" src="https://www.shinhwaworld.com/public/pic/header/header_sm_en_US_15302546079480.png" onclick="open_url('https://www.youtube.com/jejushinhwaworld');">
-            <img id="footer_nav_box_sm_icon4" class="hand" width="40" src="https://www.shinhwaworld.com/public/pic/header/header_sm_en_US_15302390186056.png" onclick="open_url('http://blog.shinhwaworld.com/');">
           </div>
-          <div class="socialMediaText">
-            Follow us on our official accounts
-          </div>
+        
         </div>
 
         <div class="upperRightBox">
@@ -761,26 +662,28 @@
       </div>
 
       <div>
-        <img style="max-width: 100%;" src="https://media.istockphoto.com/id/1329905542/photo/luxurious-laundry-room-interior-with-washing-machine-dryer-laundry-basket-and-folded-towels.jpg?b=1&s=170667a&w=0&k=20&c=PDUoG70FOg5IMiMWfI17t6FBA92Es9PMWZaQTLhH7n4=">
+        <!-- design the laundray animation-->
+        <img style="max-width: 100%;" src="images.png">
       </div>
 
       <div class="bottomBox">
         <div class="bottomLeftBox">
           <div>
-            <img src="https://www.shinhwaworld.com/public/pic/footer/footer_appen_US_15163363104634.png" width="70" height="70" style="margin-top:-15px;">
-            <img src="https://www.shinhwaworld.com/public/images/icon_rewards.jpg" width="100" height="100"><br>
-            <img src="https://www.shinhwaworld.com/public/images/icon_app.png" style="margin-top:-40px;">
+            <!-- change this one  -->
+            <img src="AnyConv.com__images.jpg" width="70" height="70" style="margin-top:-15px;">
+            <img src="AnyConv.com__images.jpg" width="100" height="100"><br>
+            <img src="AnyConv.com__download (1).jpg" style="margin-top:-40px;">
           </div>
         </div>
         <div class="bottomMiddleBox">
-          Copyrights 2018 Landing Jeju Devleopment Co., Ltd. 
+          Copyrights 2023 Landing initiative Development. 
           <br>
           All Rights Reserved
           <br>
           <br>
-          Business Registrarion Number: 616-86-09829
+           Small Business 
           <br>
-          Representative Director: Yang Zhi Hui
+          Representative Director: Kaissoune
         </div>
         <div class="bottomRightBox">
           Address: 38 Sinhwayeoksa-ro 304 beon-gil,
@@ -788,7 +691,7 @@
           Andeok-myeon Seogwipo-si, Jeju, Korea
           <br>
           <br>
-          Phone: 1670-1188 (Within Korea only)
+          Phone: 1670-1188 (Within Marwadi university  only)
           <br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +82) 64-908-8888 (Overseas)
         </div>
@@ -826,34 +729,35 @@
         </div>
         <div class="clear_both"></div>
       </div>
-      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_line.png" width="100%">
+      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_lin" width="100%">
       </div>
       <div class="mobileFooterBox">
-        <div><img src="https://www.shinhwaworld.com/public/images/footer_icon_tel.png" width="30"> RESORT RESERVATION&nbsp;:&nbsp;+82-64-908-8800</div>
+        <div><img src="https://www.shinhwaworld.com/public/images/footer_icon_tel." width="30"> RESORT RESERVATION&nbsp;:&nbsp;+82-64-908-8800</div>
       </div>
-      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_line.png" width="100%">
+      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_line.g" width="100%">
       </div>
       <div class="mobileFooterBox">
         <div><img src="https://www.shinhwaworld.com/public/images/footer_icon_share.png" width="30"> FOLLOW US</div>
         <div class="mobileIcon">
-          <img class="hand" width="35" src="https://www.shinhwaworld.com/public/pic/header/header_sm_1511057171_en_US.png" onclick="open_url('https://www.facebook.com/jejushinhwaworld');">
+          <img class="hand" width="35" src="https://www.shinhwaworld.com/public/pic/header/h_1511057171_en_US.png" onclick="open_url('https://www.facebook.com/jejushinhwaworld');">
           <img class="hand" width="35" src="https://www.shinhwaworld.com/public/pic/header/header_sm_1511057179_en_US.png" onclick="open_url('https://www.instagram.com/jejushinhwaworld/');">
           <img class="hand" width="35" src="https://www.shinhwaworld.com/public/pic/header/header_sm_1511057201_en_US.png" onclick="open_url('https://pf.kakao.com/_xmWbxgd');">
-          <img class="hand" width="35" src="https://www.shinhwaworld.com/public/pic/header/header_sm_en_US_15302546079480.png" onclick="open_url('https://www.youtube.com/jejushinhwaworld');">
+          <img class="hand" width="35" src="https://www.shinhwaworld.com/public/pic/header/header_sm_enUS_15302546079480.png" onclick="open_url('https://www.youtube.com/jejushinhwaworld');">
           <img class="hand" width="35" src="https://www.shinhwaworld.com/public/pic/header/header_sm_en_US_15302390186056.png" onclick="open_url('http://blog.shinhwaworld.com/');">
         </div>
         <div>Follow us on our official accounts</div>
       </div>
-      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_line.png" width="100%">
+      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_line.pn" width="100%">
       </div>
       <div class="mobileFooterBox">
         <div class="mobileIcon">
-          <img src="https://www.shinhwaworld.com/public/images/m_icon_app.png" height="30">
-          <img src="https://www.shinhwaworld.com/public/images/icon_rewards.jpg" width="60" height="60">
+          <img src="https://www.shinhwaworld.com/public/images/m_icon_a" height="30">
+          <img src="AnyConv.com__download (1).jpg" width="60" height="60">
         </div>
         <div>Get Shinhwa Rewards App</div>
       </div>
-      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_line.png" width="100%">
+      <div class="mobileFooterLine"><img src="https://previews.123rf.com/images/jemastock/jemastock2001/jemastock200103411/136791298-laundry-wash-and-cleaning-liquid-soap-spray-cleaner-cleaning-shampoo-into-a-cleanliness-basket.jpg
+        " width="100%">
       </div>
       <div class="mobileFooterBox">
         Address: 38 Sinhwayeoksa-ro 304 beon-gil,
@@ -863,9 +767,9 @@
         <br>
         Phone: 1670-1188 (Within Korea only)
         <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +82) 64-908-8888 (Overseas)
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9537709369 (Overseas)
       </div>
-      <div class="mobileFooterLine"><img src="https://www.shinhwaworld.com/public/images/footer_line.png" width="100%">
+      <div class="mobileFooterLine"><img src="AnyConv.com__download (1).jpg" width="100%">
       </div>
       <div class="mobileFooterBox">
         Copyrights 2023 Landing . 
@@ -873,16 +777,15 @@
         All Rights Reserved
         <br>
         <br>
-        Business Registrarion Number: 616-86-09829
+        Small Business 
         <br>
-        Representative Director: Yang Zhi Hui
+        Representative Director: Kaissoune Ali souf
       </div>
       <div class="emptyFooter"></div>
     </div>
 </div>
 <!--Only import after DOM created-->
 <script src="lundry.js"></script>
-<script src="Page3.js"></script>
 
 </body>
 </html>
